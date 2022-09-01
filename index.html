@@ -13,8 +13,15 @@
     <header class="container text-muted my-3 text-center">
         <h1>Welcome To La' Deplomat Cocktail & Coffee</h1>
     </header>
-    <main>
-        <section class="container">
+    <main class="container">
+        <section>
+            <div class="mb-3 text-center">
+                <input class="w-75 rounded p-2" type="text" id="drink-search"
+                    placeholder="Search your most desire drink">
+                <button onclick="searchFood()" id="btn-search" class="btn btn-primary">Search</button>
+            </div>
+        </section>
+        <section>
             <div id="drinks-container" class="row row-cols-1 row-cols-md-3 g-4">
 
             </div>
